@@ -1,0 +1,48 @@
+.frontheader{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 10em;
+
+  background: transparent url(bg.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+
+  h1{
+    animation: fade 2s  ease-in;
+    animation-delay: 2s;
+    margin:0;
+    font-size: 4.5em;
+  }
+
+  h2{
+    animation: fade 2s  ease-in;
+    animation-delay: 1s;
+    margin:0;
+    font-size: 2em;
+  }
+
+  div{
+    margin:auto;
+    text-align: center;
+
+    button{
+      animation: fade 2s  ease-in;
+      animation-delay: 3s;
+      font-size: 2.5em;
+      margin:1em;
+      padding: 5px;
+
+      border-radius: 5px;
+
+      color: #eeeeee;
+      background-color: #696969;
+      transition: background-color 500ms ease-in-out;
+
+      &:hover{
+        background-color: #222222;
+      }
+    }
+  }
+}

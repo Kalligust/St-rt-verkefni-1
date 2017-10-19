@@ -1,0 +1,30 @@
+.end{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+
+  div{
+    margin: auto;
+
+    h2{
+      font-size: 2em;
+    }
+    button{
+      margin: 1em;
+      padding:0.5em 2em 0.5em 2em;
+      font-size: 3em;
+      border-radius: 10px;
+
+      color: #eeeeee;
+      background-color: #696969;
+
+      transition: background-color 500ms ease-in-out;
+
+      &:hover{
+        background-color: #222222;
+      }
+    }
+
+
+  }
+}

@@ -1,0 +1,49 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+  /* stylelint-disable-line */
+  box-sizing: inherit;
+  /* fjarlægjum margin og padding */
+  padding: 0;
+  margin: 0; }
+
+
+h1,h2,h3,h4{
+  font-family: 'Roboto Slab', serif;
+}
+
+section{
+  margin-bottom: 10em;
+}
+
+img{
+  max-width: 100%;
+}
+
+@keyframes fade{
+  0%{opacity: 0;}
+  25%{opacity:0.4;}
+  50%{opacity: 0.5;}
+  75%{opacity:0.9;}
+  100%{opacity: 1;}
+}
+
+.umheader{
+  background: transparent url(bg-subpage.jpg) no-repeat fixed 50% 50%;
+}
+
+@import "scss/navbar";
+@import "scss/frontheader";
+@import "scss/card";
+@import "scss/profile";
+@import "scss/end";
+@import "scss/footer";
+@import "scss/umheader";
+@import "scss/text";
+@import "scss/kaupheader";
+@import "scss/kaupa";

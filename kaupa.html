@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stórt Verkefni 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="heim" href="index.html">Fooþjónustan</a>
+      <div class="navright">
+        <a class="um" href="um.html">Um</a>
+        <a class="kaupa" href="kaupa.html">Kaupa</a>
+      </div>
+    </nav>
+    <header class="kaupheader">
+        <h1>Kaupa</h1>
+    </header>
+  <main>
+    <section class="eydublad">
+      <form action="/my-handling-form-page" method="post">
+        <h2>Persónuupplýsingar</h2>
+        <div class="info">
+          <label for="name">Nafn:</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+        <div class="info">
+          <label for="kennitala">Kennitala:</label>
+          <input type="text" pattern="[0-9]{6}-[0-9]{4}"
+          required autofocus placeholder="123456-7890" id="kennitala">
+        </div>
+        <div class="info">
+          <fieldset>
+            <legend>Kyn</legend>
+              <label>
+                <input name="kyn" type="radio" value="Kona">
+                Kona
+                </label>
+              <label>
+                <input name="kyn" type="radio" value="Karl">
+                Karl
+              </label>
+              <label>
+                <input name="kyn" type="radio" value="Annað">
+                Annað
+              </label>
+          </fieldset>
+
+        </div>
+        <div class="info">
+          <label for="simanr">Símanúmer:</label>
+          <input type="text" pattern="+[0-9]{3} [0-9]{3} [0-9]{4}"
+          required autofocus placeholder="+345 123 4567" id="simanr">
+        </div>
+        <div class="info">
+          <label for="heimilisf">Heimilisfang:</label>
+          <input type="text" id="heimilisf">
+        </div>
+        <div class="info">
+          <span>
+            <label for="postlisti">Skrá mig á póstlista:</label>
+            <input type="checkbox" id="postlisti">
+          </span>
+        </div>
+
+      </form>
+      <form>
+        <h2>Greiðsluupplýsingar</h2>
+        <div class=info>
+            <label for="kort">Greiða með:</label>
+            <select class="form-control" id="kort">
+                <option value="kreditkorti">Kreditkorti</option>
+                <option value="millifærslu">Millifærlu</option>
+                <option value="reiðufé">Reiðufé</option>
+            </select>
+        </div>
+        <div class="info">
+          <label for="cardname">Nafn á korti:</label>
+          <input type="text" id="cardname" name="card_name">
+        </div>
+        <div class="info">
+          <label for="kortanr">Kreditkortanúmer:</label>
+          <input type="text" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          required autofocus placeholder="9999-9999-9999-9999" id="kortanr">
+        </div>
+        <div class=info>
+          <label>Gildistími:</label>
+          <span>
+              <label for="manudur">Mánuður:</label>
+              <select class="form-control" id="manudur">
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                  <option value="4">04</option>
+                  <option value="5">05</option>
+                  <option value="6">06</option>
+                  <option value="7">07</option>
+                  <option value="8">08</option>
+                  <option value="9">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+              </select>
+              <label for="Ar">Ár:</label>
+              <select class="form-control" id="Ar">
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+              </select>
+          </span>
+        </div>
+      </form>
+    </section>
+    <section class="klarapontun">
+      <form action="/klárapöntun">
+        <button type="submit">Panta</button>
+      </form>
+    </section>  
+  </main>
+    <footer>
+      <div class="efrifot">
+        <ul>
+          <li>Fooþjónusta</li>
+           <li>123 4567</li>
+        </ul>
+        <ul>
+          <li>opið 12-13 alla daga</li>
+          <li>Bargata 1</li>
+          <li>900 Foobar</li>
+        </ul>
+      </div>
+      <div class="nedrifot">
+        © Fooþjónustan 2017
+      </div>
+    </footer>
+  </body>
+</html>

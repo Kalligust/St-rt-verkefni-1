@@ -1,0 +1,16 @@
+
+.kaupheader{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background: transparent url(bg-subpage.jpg) no-repeat 50% 50%;
+  min-height: 30em;
+  width:100%;
+  margin-bottom: 5em;
+
+  h1{
+    color: #eeeeee;
+    font-size: 72px;
+    margin:0.5em;
+  }
+}

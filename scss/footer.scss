@@ -1,0 +1,28 @@
+footer{
+  max-height: 10em;
+
+  .efrifot{
+    display:flex;
+    justify-content: center;
+    color:#eeeeee;
+    background-color: #222222;
+    height: 75%;
+    border-bottom: 5px solid #555555;
+    padding: 1em;
+
+    ul{
+      width:25%;
+      text-align: center;
+      list-style-type: none;
+    }
+  }
+
+  .nedrifot{
+    text-align: center;
+    min-height:3em;
+    padding:0.5em;
+
+    color:#555555;
+    background-color: #222222;
+  }
+}
